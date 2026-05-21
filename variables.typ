@@ -1,0 +1,3 @@
+#let variables = (
+ V:"Variable"
+)
