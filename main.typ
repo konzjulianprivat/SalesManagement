@@ -3,7 +3,7 @@
 // ------------------------------------------------------------
 
 // === Form Section: Fill out your details here ===
-#let var_title                 = "Vertriebsmanagement der SAP SE: Strategie, Kanalgestaltung und CRM im B2B-Enterprise-Softwaremarkt"
+#let var_title                 = "Vertriebsmanagement der SAP SE"
 #let var_company_name          = "SAP SE"
 #let var_company_street        = "Dietmar-Hopp-Allee 16"
 #let var_company_city_zip      = "69190 Walldorf"
@@ -39,9 +39,9 @@
 #import "variables-lib.typ": init-variables, print-variables, var, varpl, vars, varspl, varl, varlpl, varf,varfpl
 // ------------------------------------------------------------
 // Global Styles
-#set cite(style: "ieee") //harvard-cite-them-right
+#set cite(style: "harvard-cite-them-right") //harvard-cite-them-right
 #set text(font: "Arial", size: 12pt, lang: "de")
-#set par(leading:  1.0em, spacing: 2em)
+#set par(leading:  1.5em, spacing: 2.5em)
 
 #let title-size = 1.5em
 #let subtitle-size = 1.25em
@@ -161,6 +161,7 @@
 
 // ------------------------------------------------------------
 // Eidesstattliche Erklärung
+
 #set page(
   paper: "a4",
   margin: (left: 2cm, right: 4cm, top: 2.5cm, bottom: 2.5cm),
@@ -190,7 +191,7 @@
   it
   v(0.5em)
 }
-#set par(justify: true, leading:  1.0em)
+#set par(leading:  1.5em, spacing: 2.5em, justify: true)
 #set text(hyphenate: true, lang: "de")
 
 

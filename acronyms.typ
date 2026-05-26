@@ -9,5 +9,17 @@
   AiTM: "Adversary-in-the-Middle",
   RP: "Relying Party",
   KI: "Künstliche Intelligenz",
-  IAG: "Intelligent Authentication Gateway"
+  IAG: "Intelligent Authentication Gateway",
+  ERP: "Enterprise Resource Planning",
+  CRM: "Customer Relationship Management",
+  B2B: "Business-to-Business",
+  ARR: "Annual Recurring Revenue",
+  BDC: "SAP Business Data Cloud",
+  BTP: "SAP Business Technology Platform",
+  AE: "Account Executive",
+  GTM: "Go-to-Market",
+  CLV: "Customer Lifetime Value",
+  LoB: "Line of Business",
+  SaaS: "Software as a Service",
+  CX: "Customer Experience"
 )

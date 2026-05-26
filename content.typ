@@ -7,151 +7,70 @@
 
 = Einleitung
 
-// TODO: Kurze Einführung in SAP SE als B2B Enterprise-Software-Anbieter (~100 Wörter).
-// Relevanz des Themas: Bedeutung des Vertriebs im hochkompetitiven Enterprise-Softwaremarkt.
-// Hinweis auf Wettbewerber (Salesforce, Oracle, Microsoft) und den Wandel durch Digitalisierung.
-// Skript Kap. 1: Digitalisierung im B2B-Vertrieb (Folie 23), Solution Selling (Folie 28).
+Die SAP SE mit Sitz in Walldorf ist der weltweit führende Anbieter von unternehmensweiter Anwendungssoftware. Gegründet 1972, erzielte das Unternehmen im Geschäftsjahr 2024 einen Gesamtumsatz von 34,2 Milliarden Euro, davon entfielen erstmals mehr als die Hälfte auf das Cloud-Geschäft — 17,1 Milliarden Euro #cite(<SAPIntegratedReport2024>, supplement: [S. 71--72]). Diese Zahlen belegen den tiefgreifenden Wandel von einem klassischen On-Premise-Lizenzanbieter hin zu einem integrierten #acr("SaaS")-Unternehmen der Enterprise-Klasse. Als strategisches Leitprodukt fungiert die SAP Business Suite: eine integrierte Cloud-Plattform aus Cloud-#acr("ERP"), der SAP Business Data Cloud (#acr("BDC")), dem #acr("KI")-Orchestrator SAP Joule sowie branchenspezifischen Line-of-Business-Anwendungen #cite(<SAPPricing2026>, supplement: [S. 20]). In einem hochkompetitiven Markt — mit Salesforce, Oracle und Microsoft als Hauptwettbewerbern — ist ein strategisch ausgerichtetes Vertriebsmanagement der entscheidende Hebel für nachhaltiges Wachstum.
 
 #pagebreak()
 
 = Ziele und Herausforderungen des Vertriebsmanagements bei SAP
 
-// Skript Kap. 2.2 (Folien 35–38):
-// - Rangordnung der Verkaufsziele: Erfolgspotenzial (Kundenzufriedenheit, Image) →
-//   Markterfolg (Marktanteil, Kundenloyalität) → finanzielle Ziele (Umsatz, CLV)
-// - Herausforderung 1: Steigender Kostendruck in Marketing & Vertrieb (Folie 37)
-// - Herausforderung 2: Steigende Kundenerwartungen / "Kundenzufriedenheitsfalle" (Folie 38)
+Die Vertriebsziele der SAP SE lassen sich entlang einer dreistufigen Zielhierarchie ordnen. Auf der obersten Ebene steht das Erfolgspotenzial in Form langfristiger Kundenbindung — messbar an einer Erneuerungsrate von 91 Prozent im Cloud-Kerngeschäft #cite(<SAPBDCGtm2026>, supplement: [S. 5]). Darauf aufbauend strebt SAP Markterfolg an, insbesondere die Marktführerschaft im #acrs("ERP")-Segment, die Gartner 2024 bereits zum dritten Mal in Folge bestätigte #cite(<SAPNewsGartnerMQERP2024>). Als finanzielles Ziel ist für FY2026 im Data-&-AI-Portfolio ein Wachstum von 40 Prozent auf über 1,3 Milliarden Euro anvisiert, mit dem Teilziel eines #acrs("BDC")-Kernjahresumsatzes von 622 Millionen Euro bei 63 Prozent Wachstum #cite(<SAPBDCGtm2026>, supplement: [S. 5]).
 
-== Vertriebsziele im B2B-Enterprise-Softwaremarkt
+Das Vertriebsmanagement sieht sich dabei zwei zentralen Herausforderungen gegenüber. Erstens erzeugt der wachsende Wettbewerbsdruck im Cloud-Markt erheblichen Preisdruck: Salesforce, Microsoft und Oracle agieren aggressiv bei der Preisgestaltung, weshalb SAP intern ein mehrstufiges Rabattsystem aus volumen-, commitment- und partnerbasierter Preisanpassung etabliert hat #cite(<SAPPricing2026>, supplement: [S. 16]). Flankiert wird dies durch ein Cloud-Pricing-Evolution-Framework, das die Vergütung von Account Executives an Preisrealisierungsziele koppelt, um Margenverfall zu bremsen #cite(<SAPPricing2026>, supplement: [S. 18]).
 
-// TODO: Ziele von SAP SE anhand der drei Ebenen des Skripts darstellen:
-// Erfolgspotenzial (Kundenbindung, Vertrauen, NPS), Markterfolg (Marktanteil bei ERP/CRM/Cloud),
-// finanzielle Ziele (ARR, Cloud-Umsatz). Konkrete Kennzahlen aus SAP-Geschäftsbericht nutzen.
-
-== Aktuelle Herausforderungen
-
-// TODO: Kostendruck (51 % Potenzial zur Produktivitätssteigerung im Vertrieb, Homburg 2016).
-// Steigende Erwartungen der Enterprise-Kunden ("Kundenzufriedenheitsfalle").
-// SAP-spezifisch: Wettbewerbsdruck durch Cloud-native Anbieter, Komplexität des Produktportfolios,
-// langer B2B-Verkaufszyklus (Buying Center, viele Entscheidungsträger).
+Zweitens führt die steigende Erwartungshaltung von Enterprise-Kunden zur sogenannten Kundenzufriedenheitsfalle: Kunden erwarten sofortige, messbare Wertrealisierung aus #acrs("KI")-Funktionen, obwohl viele der geplanten Intelligent Packages — etwa Finance Intelligence oder Revenue Intelligence — zum Start des Geschäftsjahres 2026 noch in der Entwicklung waren #cite(<SAPBDCGtm2026>, supplement: [S. 5]). Hinzu kommt ein strukturelles Pipeline-Problem: Das qualifizierte Opportunity-Volumen lag zu Jahresbeginn 2026 bei lediglich 0,6 Milliarden Euro, verglichen mit einem Zielniveau von 2,5 Milliarden Euro — ein Pipeline-Gap von 1,9 Milliarden Euro #cite(<SAPBDCGtm2026>, supplement: [S. 6]).
 
 #pagebreak()
 
 = Vertriebsstrategie der SAP SE
 
-// Skript Kap. 2.3 (Folien 39–42):
-// - Definition Vertriebsstrategie nach Panagopoulos & Avlonitis (2010)
-// - 5 Bestandteile: Ziele, Kunden, Konkurrenz, Preisbildung, Vertriebskanäle/-partner
-// - Voraussetzungen: dynamisch, kommuniziert, gelebt
+Eine Vertriebsstrategie legt fest, wie ein Unternehmen seine Ziele erreicht, welche Kunden es adressiert, wie es sich gegenüber Wettbewerbern positioniert und über welche Kanäle und Preismodelle es vorgeht #cite(<Panagopoulos2010>, supplement: [S. 47]). Die Vertriebsstrategie der SAP SE basiert auf dem Prinzip des _Solution Selling_: Statt isolierte Produkttransaktionen abzuschließen, positionieren sich SAPs Account Executives als langfristige Transformationspartner, die komplexe, unternehmensweite Geschäftsprozesse ganzheitlich adressieren.
 
-== Strategische Ausrichtung: Solution Selling im Enterprise-Markt
+Das übergeordnete strategische Leitbild ist die SAP Business Suite als integrierte Cloud-Plattform — intern als „North Star" bezeichnet: „a comprehensive suite of integrated cloud solutions where applications, data, and AI work as one" #cite(<SAPPricing2026>, supplement: [S. 20]). Das daraus abgeleitete Vertriebsmuster heißt _Land and Expand_: Der Einstieg erfolgt typischerweise über das Cloud-#acrs("ERP") (RISE with SAP), gefolgt von einer systematischen Erweiterung auf #acrs("BDC"), Intelligent Packages und Premium-#acrs("KI")-Einheiten (AI Units) #cite(<SAPPricing2026>, supplement: [S. 25]).
 
-// TODO: SAP verfolgt einen Solution-Selling-Ansatz (Skript Folie 28): langfristige Beziehungen,
-// prozessorientiert, hochkomplexe Produkte (ERP, S/4HANA, SAP Business Technology Platform),
-// hoher Customer Lifetime Value. Abgrenzung zu Transactional Selling.
-
-== Kundensegmentierung und Zielmärkte
-
-// TODO: SAP-Kundensegmente (Large Enterprise, Midmarket via SAP Business One / Rise with SAP),
-// globale Abdeckung, branchenspezifische Lösungen (Industry Cloud). Wer sind SAPs Kunden?
-// Welche werden adressiert? Buying Center-Ansprache.
-
-== Vertriebskanäle und Partnerökosystem
-
-// TODO: Bestandteile der Vertriebsstrategie (Kap. 2.3): Welche Kanäle nutzt SAP?
-// Direktvertrieb (Enterprise Account Executives) + indirekter Vertrieb über Partner.
-// SAP-Partnerökosystem (Value Added Resellers, System Integratoren wie Accenture, IBM).
+Die Kundensegmentierung folgt drei Ebenen: Enterprise-Kunden werden über dedizierte #acr("AE") im Direktvertrieb betreut, Corporate-Kunden in einem Tandem-Modell aus #acrs("AE") und Partner, kleinere Unternehmen vollständig partnergeführt #cite(<SAPBDCGtm2026>, supplement: [S. 18]). Für das FY2026-#acr("GTM") wurden allein für den Sales Play „Ignite AI with Business-Ready Data" 6.847 Zielkunden identifiziert, für „Accelerate AI Data Gravity with Open Data Ecosystem" weitere 5.129 #cite(<SAPBDCGtm2026>, supplement: [S. 18]). Buying-Center-orientiert richtet SAP seine Lösungspakete gezielt auf C-Level-Entscheider aus: der CFO erhält Finance-Lösungen (Finance Base 345 Euro/Nutzer/Monat), der Chief Revenue Officer Customer-Experience-Lösungen (SAP Sales Cloud 118 Euro/Nutzer/Monat) #cite(<SAPPricing2026>, supplement: [S. 21]). Für über 20 Branchen — von Automotive über Banking bis Retail — stehen spezialisierte #acrs("GTM")-Verkaufsunterlagen bereit #cite(<SAPBDCGtm2026>, supplement: [S. 20]).
 
 #pagebreak()
 
 = Vertriebsbezogene Wettbewerbsvorteile
 
-// Skript Kap. 2.4 (Folien 43–44):
-// - Drei Voraussetzungen eines Wettbewerbsvorteils: Relevanz, Wahrnehmbarkeit, Nachhaltigkeit
-// - Zwei strategische Möglichkeiten: Kostenführerschaft vs. Differenzierung (Porter 1998)
+Nach Porter (1998) existieren zwei grundlegende Wettbewerbsstrategien: Kostenführerschaft und Differenzierung #cite(<Porter1998>, supplement: [S. 35]). SAP SE verfolgt klar eine _Differenzierungsstrategie_. Nach Homburg et al. (2016) muss ein nachhaltiger Wettbewerbsvorteil drei Kriterien erfüllen: Relevanz für den Kunden, Wahrnehmbarkeit im Markt und Nachhaltigkeit gegenüber Imitation #cite(<Homburg2016>, supplement: [S. 89]).
 
-== Wettbewerbsvorteil der SAP SE
+SAPs wichtigster Differenzierungsvorteil ist die _tief integrierte End-to-End-Prozessabdeckung_: Als einziger Anbieter deckt SAP Finance, Supply Chain, Human Capital Management, Beschaffung und Customer #acr("CX") unter einem gemeinsamen Datenmodell ab — mit SAP Joule als #acrs("KI")-Orchestrator über alle Prozesse #cite(<SAPPricing2026>, supplement: [S. 20]). Dies ist für CFO, COO und CRO gleichermaßen relevant (Relevanz). Die Gartner-Leader-Position im Cloud-#acrs("ERP") belegt die Marktwahrnehmung (Wahrnehmbarkeit) #cite(<SAPNewsGartnerMQERP2024>). Die hohen Wechselkosten tief integrierter SAP-Systeme sowie über 25.000 zertifizierte PartnerEdge-Partner weltweit sichern den Vorsprung langfristig (Nachhaltigkeit) #cite(<SAPPartnerEdge2025>). Zusätzlich ist SAP Joule für alle Cloud-Kunden kostenlos enthalten, während Salesforce Einstein und Microsoft Copilot als Aufpreis-Optionen vermarktet werden #cite(<SAPPricing2026>, supplement: [S. 27]). Die offene #acrs("BDC")-Datenstrategie mit Konnektoren zu Databricks, Google Cloud, Snowflake und Microsoft Azure #cite(<SAPBDCGtm2026>, supplement: [S. 27--29]) positioniert SAP als neutrales Daten-Fundament statt als geschlossenes Silo.
 
-// TODO: SAP setzt auf Differenzierung (nicht Kostenführerschaft):
-// - Relevanz: tief integrierte End-to-End-Prozesse (ERP+CRM+SCM in einem System)
-// - Wahrnehmbarkeit: Markenbekanntheit, Marktführerschaft im ERP-Segment, Kundenstimmen
-// - Nachhaltigkeit: hohe Switching Costs (Lock-in durch tiefe Systemintegration),
-//   einzigartiges Partnerökosystem mit 25.000+ Partnern weltweit
-// Quelle: SAP Geschäftsbericht, Analystenberichte (Gartner Magic Quadrant).
-
-== Wettbewerbsvorteile der Konkurrenz
-
-// TODO: Salesforce (Marktführer CRM, Cloud-native, Ease-of-Use, AI-Einstein),
-// Oracle (starke Datenbankkompetenz, Netzwerk im Finanzsektor),
-// Microsoft (Dynamics 365 + Azure + Teams-Integration, breites Ökosystem, niedrigere Einstiegshürde).
-// Kritische Bewertung: Wo hat SAP Schwächen gegenüber diesen Wettbewerbern?
+Die Wettbewerber setzen auf komplementäre Stärken: _Salesforce_ ist im Gartner Magic Quadrant für Sales Force Automation zum 18. Mal in Folge als Leader ausgezeichnet und hat den #acr("CRM")-Markt durch einen Cloud-nativen, nutzerfreundlichen Ansatz dominiert #cite(<GartnerMQSFA2024>). _Oracle_ nutzt Datenbankdominanz und eine starke Stellung im Finanzsektor als Basis für seine Fusion-Cloud-Suite. _Microsoft_ setzt die Ubiquität von Teams, Azure und Office 365 als Hebel für Dynamics 365 ein und bietet die niedrigste Einstiegshürde aller vier Anbieter. Bemerkenswert ist, dass SAP im Gartner Magic Quadrant für Sales Force Automation nicht als Leader positioniert ist — was die Stärke von Salesforce im #acrs("CRM")-Kernsegment unterstreicht #cite(<GartnerMQSFA2024>). Eine besondere Komplexität schafft die Koopetition mit Microsoft Azure: Der Hyperscaler ist zugleich Partner im BDC-Connect-Programm und Wettbewerber mit Microsoft Fabric als eigener Datenplattform #cite(<SAPBDCGtm2026>, supplement: [S. 29]).
 
 #pagebreak()
 
 = Gestaltung der Vertriebskanäle bei SAP SE
 
-// Skript Kap. 3 (Folien 48–99):
-// - Vertriebseinheiten (intern: Außendienst, E-Commerce; extern: Partner, VAR)
-// - 3 Dimensionen der Konfiguration: Länge (direkt/indirekt), Breite (selektiv), Tiefe (Multichannel)
+Die Konfiguration von Vertriebskanälen wird entlang dreier Dimensionen bewertet: _Länge_ (direkt vs. indirekt), _Breite_ (intensiv, selektiv oder exklusiv) sowie _Tiefe_ (Anzahl paralleler Kanäle). SAP SE betreibt ein selektives Multi-Channel-System, das nach Kundengröße und Transaktionskomplexität differenziert.
 
-== Konfiguration des Vertriebssystems
+In der Längendimension bedient SAP Enterprise-Kunden ausschließlich über dedizierte #acrs("AE") im Direktvertrieb, die buying-center-spezifisch auf CFO-, COO- oder CRO-Ebene adressieren #cite(<SAPBDCGtm2026>, supplement: [S. 18]). Corporate-Kunden werden in einem Hybrid-Modell aus #acrs("AE") und zertifizierten Partnern betreut, kleinere Unternehmen vollständig über das SAP-PartnerEdge-Ökosystem mit über 25.000 Partnern weltweit #cite(<SAPPartnerEdge2025>). Die Breite ist bewusst selektiv: Zertifizierungs- und Kompetenzanforderungen sichern die Qualität der Kundenerfahrung im Partnerkanal. In der Tiefe erschloss SAP 2026 eine neue Kanaldimension: Hyperscaler-Marktplätze (AWS Marketplace, Google Cloud Marketplace, Azure) als digitale Vertriebskanäle mit definierten Co-Sell-Zielen — u.a. 300 Deals auf AWS, 250 auf Azure #cite(<SAPBDCGtm2026>, supplement: [S. 28]). Standardisierte SAP Business Suite Packages für den Mid-Market (#cite(<SAPPricing2026>, supplement: [S. 21])) verkürzen zudem den Verkaufszyklus im Partnerkanal erheblich.
 
-// TODO: Länge: SAP nutzt sowohl direkten (Enterprise-Segment) als auch indirekten Vertrieb
-// (Midmarket über Partner). Breite: selektiver Vertrieb – zertifizierte Partner (SAP PartnerEdge).
-// Tiefe: Multi-Channel (Direct Sales, Partner Channel, SAP Store für Self-Service/SMB).
-
-== Direktvertrieb, Partnervertrieb und digitale Kanäle
-
-// TODO: Interner Vertrieb (Account Executives, Industry Specialists, Customer Success Manager).
-// Externer Vertrieb: SAP PartnerEdge-Programm, System Integratoren, OEM-Partner.
-// Digitale Kanäle: SAP Store, Rise with SAP (standardisiertes Cloudangebot für schnelleren Vertrieb).
-// Omnichannel-Gedanke (Skript Folie 21): Kundenperspektive im Mittelpunkt.
-
-== Bewertung der Kanaleffizienz
-
-// TODO: Direktvertrieb = hohe Kontrolle, hohe Kosten, geeignet für komplexe Enterprise-Deals.
-// Partnervertrieb = geringere Kosten, Skalierung, aber geringere Kontrolle über Kundenerfahrung.
-// Trend zu digitalem Self-Service (Rise with SAP, SAP Store) für kleinere Deals.
+Hinsichtlich Kanaleffizienz bietet der Direktvertrieb hohe Kontrolle bei hohen Kosten pro Deal; er eignet sich für komplexe Enterprise-Projekte. Der Partnerkanal skaliert die Reichweite, birgt aber das Risiko inkonsistenter Kundenerfahrung — weshalb Partner-Enablement explizit als strategische Priorität gilt: „To scale, we must enable the partner ecosystem to build data products and applications." #cite(<SAPBDCGtm2026>, supplement: [S. 22]). Das Ratio-Based-#acrs("GTM")-Modell strukturiert die Kanalproduktivität im Direktvertrieb: #acr("LoB") Intelligent Packages werden automatisch mit #acrs("BDC") Capacity Units kombiniert (auto-attach), was Cross-Selling ohne manuellen Mehraufwand für den #acrs("AE") ermöglicht #cite(<SAPBDCGtm2026>, supplement: [S. 9]).
 
 #pagebreak()
 
 = Customer Relationship Management bei SAP SE
 
-// Skript Kap. 4 (ab Folie ~85):
-// - CRM-Grundbegriffe, fundamentale Ziele des CRM
-// - Evolutionspfad: Rattenjagd-Vertrieb → CRM-Vertrieb (Fokus auf Kundenbindung)
-// - AI-CRM: 5 Wege wie KI CRM transformiert (Dateneingabe, Sentiment-Analyse,
-//   Datenintegrität, Predictive Lead-Scoring, kundenspez. Empfehlungen) (Folie 26)
-// - Salesforce als direkter CRM-Wettbewerber (Folie 25)
+#acrs("CRM") ist für die SAP SE von zentraler strategischer Bedeutung — und das in einer doppelten Rolle: SAP agiert sowohl als Anbieter als auch als Anwender von #acrs("CRM")-Lösungen. Als Anbieter vertreibt SAP die Customer-Experience-Suite mit SAP Sales Cloud (118 Euro/Nutzer/Monat) und SAP Service Cloud (97 Euro/Nutzer/Monat) in direkter Konkurrenz zu Salesforce #cite(<SAPPricing2026>, supplement: [S. 21]). Als Anwender nutzt SAP intern integrierte Kundendaten aus S/4HANA und der #acrs("CX")-Suite für eine vollständige 360-Grad-Kundensicht. Der #acrs("KI")-Assistent SAP Joule ermöglicht Predictive-Lead-Scoring, Pipeline-Health-Monitoring und automatisierte Sentiment-Analysen in Echtzeit #cite(<SAPJoule2023>). Das Revenue-Intelligence-Intelligent-Package verfolgt #acr("CLV"), Churn-Risiko, Erneuerungsraten und Verkaufszyklus-Längen — und macht #acrs("CRM") damit zu einem strategischen Steuerungsinstrument auf Unternehmensebene #cite(<SAPBDCGtm2026>, supplement: [S. 20]). Für Kunden, die ihren eigenen Vertrieb aktiv steuern möchten, bietet SAP zudem das Sales-Performance-Management-Portfolio (Incentive Management, Territory & Quota) als Managed Service an #cite(<SAPCASSPM2025>, supplement: [S. 2]).
 
-// TODO: SAP ist nicht nur Anwender, sondern Anbieter von CRM-Software (SAP Sales Cloud / C/4HANA).
-// Paradoxie: SAP konkurriert mit Salesforce im CRM-Markt, während SAP-Kunden teils Salesforce nutzen.
-// Bedeutung von CRM für SAPs eigenen Vertrieb: integrierte Kundendaten über S/4HANA + CX Suite,
-// AI-gestützte Features (SAP Joule, Predictive Lead Scoring), 360°-Kundensicht.
-// Instrumente: Kundensegmentierung, Account-based Marketing, Customer Lifetime Value-Steuerung.
+Meiner Einschätzung nach ist #acrs("CRM") das zentrale Nervensystem des Solution-Selling-Ansatzes bei SAP: Ohne vollständige Kundendaten und #acrs("KI")-gestützte Vorhersagen lässt sich ein Vertriebszyklus, der bei Enterprise-Deals mehrere Monate bis Jahre dauern kann, kaum effektiv steuern. Bemerkenswert ist dabei die strukturelle Paradoxie, dass SAP mit Salesforce im #acrs("CRM")-Markt konkurriert #cite(<GartnerMQSFA2024>), während viele SAP-#acrs("ERP")-Kunden parallel Salesforce als bevorzugte #acrs("CRM")-Lösung einsetzen. Dies zeigt, dass #acrs("CRM")-Entscheidungen im Enterprise-Umfeld häufig unabhängig von der #acrs("ERP")-Wahl getroffen werden — ein Argument dafür, die SAP Sales Cloud in Funktionsumfang und Benutzerfreundlichkeit weiter gegenüber Salesforce zu differenzieren.
 
 #pagebreak()
 
 = Vertriebsbezogene Herausforderungen der nächsten fünf Jahre
 
-// Skript: AI-CRM (Folie 26), Digitalisierung im B2B (Folie 23), eCommerce-Trends (Folie 68).
-// Übergeordnet: SAP muss im Enterprise-Vertrieb mit cloud-nativen, agileren Wettbewerbern Schritt halten.
+Aus meiner Einschätzung ist die _#acrs("KI")-Monetarisierung und der messbare Wertnachweis_ die größte vertriebliche Herausforderung der nächsten fünf Jahre. Enterprise-Kunden stehen unter wachsendem Druck, #acrs("KI")-Investitionen gegenüber Vorständen durch konkrete Return-on-Investment-Nachweise zu rechtfertigen. SAP verkauft mit den Intelligent Packages ein #acrs("KI")-Versprechen, das sich in messbarem Mehrwert ausdrücken muss — zu einem Zeitpunkt, an dem viele dieser Pakete noch nicht vollständig verfügbar waren #cite(<SAPBDCGtm2026>, supplement: [S. 5]). Werden die versprochenen Effizienzgewinne nicht zeitnah realisiert, entsteht die Kundenzufriedenheitsfalle mit negativen Konsequenzen für Erneuerungsraten und Markterfolg.
 
-// TODO: Größte Herausforderung benennen und begründen.
-// - 57 % der B2B-Einkaufsprozesse sind abgewickelt, bevor der Vertrieb erstmals kontaktiert wird
-//   (Skript Folie 23) → Self-Service und digitale Buying Journeys gewinnen an Bedeutung.
-// - KI transformiert Vertrieb: Predictive Lead Scoring, automatisierte Angebotserstellung,
-//   AI-gestützte Verhandlungsvorbereitung (Salesforce Einstein, SAP Joule).
-// - Risiko: Commoditisierung von ERP/Cloud → Wettbewerb über Preis statt Differenzierung.
-// - Partnerökosystem als Herausforderung: Qualitätskontrolle bei wachsendem Partnernetz.
+Eng damit verknüpft ist die _Hyperscaler-Koopetition_: Microsoft Azure, Google Cloud und AWS sind simultane Partner im #acrs("BDC")-Connect-Programm #cite(<SAPBDCGtm2026>, supplement: [S. 27--29]) und Wettbewerber mit eigenen Daten- und #acrs("KI")-Plattformen. Ich erwarte, dass diese Grenze sich in den nächsten Jahren weiter verschärft, da alle drei Hyperscaler aktiv in das #acrs("ERP")-nahe Analytik-Segment vordringen und SAP direkt herausfordern werden.
+
+Schließlich bleibt das _Partner-Enablement im #acrs("KI")-Zeitalter_ eine kritische operative Herausforderung: SAPs ambitionierte Wachstumsziele sind ohne ein skalierendes Partnerökosystem nicht erreichbar #cite(<SAPBDCGtm2026>, supplement: [S. 22]). Die erforderliche Qualifizierung von Partnern für hochspezialisierte Produkte wie #acrs("BDC") und Joule erfordert massive Investitionen in Schulung, Zertifizierung und Anreizsysteme. Die #acrs("KI")-Monetarisierung bleibt dabei die existenziellste Herausforderung, da sie SAPs fundamentales Wertversprechen im Cloud-Zeitalter auf die Probe stellt.
 
 #pagebreak()
 
 = Fazit
 
-// TODO: Kurze Zusammenfassung der Kernaussagen zu den 6 Fragen (~100 Wörter).
-// Gesamtbewertung: SAP ist gut positioniert (Differenzierungsstrategie, Ökosystem),
-// muss aber im Bereich digitaler Vertriebskanäle und KI-gestütztem CRM weiter investieren,
-// um den Vorsprung gegenüber cloud-nativen Wettbewerbern zu halten.
+Die SAP SE ist durch ihre Differenzierungsstrategie — ganzheitliche Prozessintegration, offene Datenplattform und ein globales Partnerökosystem mit über 25.000 Partnern #cite(<SAPPartnerEdge2025>) — im Enterprise-Softwaremarkt stark positioniert. Mit einem Cloud-Umsatzanteil von erstmals über 50 Prozent ist die strategische Transformation erfolgreich vollzogen #cite(<SAPIntegratedReport2024>, supplement: [S. 72]). Die entscheidende Variable der nächsten Jahre liegt weniger in der Strategieformulierung als in der Execution: #acrs("KI")-Wertnachweis, Hyperscaler-Koopetition und Partner-Enablement werden darüber entscheiden, ob SAP seinen Wachstumspfad im Cloud-Zeitalter halten kann.
 
 ]
