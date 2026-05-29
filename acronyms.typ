@@ -21,5 +21,7 @@
   CLV: "Customer Lifetime Value",
   LoB: "Line of Business",
   SaaS: "Software as a Service",
-  CX: "Customer Experience"
+  CX: "Customer Experience",
+  SMB: "Small and Medium-Sized Businesses",
+  DCA: "Distribution Cost Analysis"
 )

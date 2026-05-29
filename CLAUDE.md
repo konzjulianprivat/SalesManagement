@@ -34,7 +34,9 @@ SalesManagement/
 │   ├── Anforderungen/
 │   │   └── Sales Management_Hausarbeit_Aufgabenstellung.pdf
 │   ├── Vorlesungsskripte/
-│   │   └── Sales Management_Kapitel 1-3.pdf   # Skript mit Kapiteln 1-6 (99 Seiten)
+│   │   ├── Sales Management_Kapitel 1-3.pdf   # Kapitel 1–3 (99 Seiten)
+│   │   ├── Sales Management_Kapitel 4.pdf      # Kapitel 4: CRM (ca. 80 Seiten)
+│   │   └── Sales Management_Kapitel 5 und 6.pdf # Kapitel 5+6: externe/interne Vertriebssteuerung (ca. 75 Seiten)
 │   └── SAP internal slides/                   # *** PRIMÄRQUELLE: Interne SAP-Dokumente ***
 │       ├── 2026_BDC_GTM_Overview.pdf          # SAP Business Data Cloud GTM 2026 (32 Seiten, Stand Mai 2026)
 │       ├── GTM 2026 Executive Overview.pptx   # Executive GTM Overview 2026
@@ -44,6 +46,40 @@ SalesManagement/
 ```
 
 **Wichtig**: Inhalt wird ausschließlich in `content.typ` geschrieben. `main.typ` enthält nur Formatierung und Metadaten – dort nur Variablen wie `var_title` anpassen.
+
+---
+
+## ⚠️ FUNDAMENTALER FOKUS-WECHSEL (Stand: Mai 2026)
+
+> **Diese Anforderung überschreibt alle früheren Anweisungen zur Gewichtung von SAP-Inhalten.**
+
+Der Dozent hat explizit vorgegeben, dass der Fokus der Arbeit sich grundlegend geändert hat:
+
+### Primär: Theoretisches Verständnis der Vorlesungsinhalte
+Jedes Kapitel beginnt mit **1–2 Theorie-Absätzen**, die das jeweilige Konzept aus dem Vorlesungsskript erklären (Was ist es? Wozu dient es? Welche Frameworks gibt es?). Die Theorie wird mit grauer Literatur (Gartner, HBR, peer-reviewed Papers, etablierte Autoren wie Homburg, Porter, Kotler) belegt.
+
+### Sekundär: SAP-Umsetzung (dennoch wichtig!)
+Danach folgt **1 SAP-Absatz**, der die theoretischen Konzepte auf die SAP SE anwendet. SAP-spezifische Inhalte werden verdichtet und nur die relevantesten Fakten behalten.
+
+### Pflichtanforderung: Methodologie-Kontext
+**Immer wenn eine Methode, ein Framework oder eine Analyse angewendet wird, muss vorher kurz erklärt werden, was diese Methode ist und wozu sie dient.** Danach wird die Anwendung auf SAP beschrieben.
+
+**Format-Muster (zwingend einzuhalten):**
+> „Eine ABC-Analyse dient dazu, [Zweck]. Im Folgenden wird diese am Beispiel der SAP SE angewendet: [SAP-Einordnung]."
+
+Dies gilt für alle methodologischen Konzepte, die in der Arbeit vorkommen, z.B.:
+- ABC-Analyse der Zielebenen (Vertriebsziele)
+- Rangordnung der Verkaufsziele (Homburg)
+- Transactional Selling vs. Solution Selling
+- Porter's Kostenführerschaft vs. Differenzierung
+- 3 Kriterien Wettbewerbsvorteil (Homburg)
+- 3 Dimensionen Vertriebskanäle (Länge, Breite, Tiefe)
+- Distribution Cost Analysis (DCA) nach Rosenbloom
+- CRM-Evolutionspfad nach Winkelmann
+- KI-CRM-Transformation (5 Wege)
+
+### Roter Faden
+Die Reihenfolge der Kapitel muss nicht zwingend der Aufgabenstellung entsprechen – ein kohärenter Erzählfluss (roter Faden) hat Priorität. Am Ende müssen alle 6 Fragen beantwortet sein.
 
 ---
 
@@ -70,11 +106,41 @@ Das Skript `Sales Management_Kapitel 1-3.pdf` enthält alle 6 Kapitel (Folie 1�
 - **3.2 Konfiguration**: 3 Dimensionen (Länge: direkt/indirekt, Breite: intensiv/selektiv/exklusiv, Tiefe: Kanalanzahl), Bestimmungsfaktoren
 - **3.3 Bewertung der Effizienz**: (im Skript vorhanden, ab Folie ~85)
 
-### Kapitel 4: CRM (im Skript vorhanden, ab ca. Folie 85)
-- Grundbegriffe, fundamentale Ziele, Instrumente des CRM
-- Evolutionspfad: Rattenjagd → Verkaufen mit System (CRM-Vertrieb)
-- AI-CRM: 5 Wege wie KI CRM transformiert (Dateneingabe, Sentiment-Analyse, Datenintegrität, Predictive Lead-Scoring, kundenspezifische Empfehlungen)
-- SAP-Kontext: Salesforce als direkter Wettbewerber im CRM-Markt (Folie 25)
+### Kapitel 4: CRM (Sales Management_Kapitel 4.pdf, Folien 1–80)
+- **4.1 Grundbegriffe des CRM**: Definition, Evolutionspfad (Winkelmann 2013): Rattenjagd → Verkaufen mit Methode → CRM-Vertrieb
+- **4.2 Fundamentale Ziele des CRM** (Folie 47): 4 Zieldimensionen: Kundenzufriedenheit/-loyalität, Vertrauen, Profitabilität der Kundenbeziehung, Wert des Kunden
+  - ABC-Analyse der Kunden (Folie 41): Klassifizierung nach Wertbeitrag (A/B/C)
+  - Kundenlebenszyklus-Modellierung (Folie 42): ideale vs. problematische Entwicklung
+  - CLV-Modell (Folie 44, Quelle: Homburg/Schäfer/Schneider 2016, S. 221 ff.): Kundenbeziehung als Investitionsobjekt; mit Dauer steigen: Basisgewinn, Verkaufsvolumen, sinkende Betriebskosten, Weiterempfehlungen, Preis-Premium (Reichheld/Sasser 1990, Folie 43)
+- **4.3 Instrumente des CRM** (Folie 47–80):
+  - Kundenkarten (Folie 49–52): Klassifizierung nach Funktionen (unternehmensbezogen/kundenbezogen), Anzahl Partner, Verfügbarkeit, Verbreitung
+  - Modellierung der Kundenbeziehung (Folie 54): 5 Phasen (Vor, Beginn, Während, Ende, Nach der Beziehung) mit Aktivitäten; Triggerpunkte (normale und besondere)
+  - Beschwerdemanagement (Folie 57–65): Eisbergphänomen (85 % beschweren sich nicht!), Beschwerdestimulung, -annahme, -bearbeitung, -analyse (Portfolio: tödliche Fehler vs. vernachlässigbare Mängel), Erfolgskontrolle
+  - Key Account Management (Folie 67–80, Quelle: Homburg/Jensen 2004): Definition, 4 Grundfragen (Mit wem? Wie? Wer ist unser Kunde? Wie managen wir?), proaktive/reaktive Auswahlkriterien, KAM-Typen (regional/national/global/corporate), Buying Center (7 Rollen: Förderer, Blockierer, Vorselektierer, Entscheidungsträger, Einflussnehmer, Käufer, Nutzer), Kundenkontakt-Matrix
+
+### Kapitel 5: Steuerung der externen Vertriebspartner (Sales Management_Kapitel 5 und 6.pdf, Folien 1–43)
+- **5.1–5.3**: Grundlagen externe Vertriebspartner, Macht/Konflikt/Kooperationsmanagement
+- **5.4 Kooperation**: ECR (Efficient Consumer Response) — Vertrauen zwischen Händler und Hersteller, Supply Chain Management + Category Management; Kooperatives Marketing (Pull/Push/Kooperativ)
+- *Hinweis*: Kapitel 5 ist primär Handels-/Konsumgüterfokus; für SAP-SE-Kontext weniger direkt relevant als Kapitel 4 und 6
+
+### Kapitel 6: Steuerung der internen Vertriebsmitarbeiter (Sales Management_Kapitel 5 und 6.pdf, Folien 44–75)
+- **6.1 Gestaltung der Verkaufsaktivitäten**:
+  - Art des Kundenkontakts: direkter/medienbasierter persönlicher/unpersönlicher Kontakt (Homburg/Kuester/Krohmer 2013)
+  - Kundenorientierung vs. Verkaufsorientierung: Top Seller (hoch/hoch), Soft/Hard/No Seller (Homburg/Müller 2010)
+  - 3 Verkaufsansätze (Folie 48): Character Selling (Produkteigenschaften), Discount Selling (Preis), Value Selling (Kundenwert als Kern)
+  - Social Selling (Folie 53–55, Belew 2014): Identifikation und Beziehungsaufbau via Social Media; 3 Ziele: Ausschau, Leadqualifizierung, Beziehungsmanagement; 4 Herausforderungen
+- **6.2 Organisation des Vertriebs** (Folien 57–64):
+  - 4 Grundformen: nach Produkt, Region, Kunden, Verkaufskanal (Homburg/Schäfer/Schneider 2016, S. 111–113)
+  - Vor- und Nachteile je Form; Kombinationen möglich
+  - Schnittstellenmanagement: strukturbezogene, prozessbezogene, personalmanagementbezogene, kulturbezogene Instrumente
+- **6.3 Verkaufsplanung und Kontrollsysteme** (Folien 66–68):
+  - Verkaufsplanungsprozess (Planungsphase → Implementierungsphase mit Kontrolle)
+  - 4 Budgetierungsmethoden; Abweichungsanalyse (ökonomische/kundenbezogene/akquisitionsbezogene Indikatoren)
+- **6.4 Stellenbesetzung, Training und Leitung** (Folien 69–75):
+  - Hauptleistungsfaktoren: Personalauswahl, -entwicklung, Führungsverhalten, Zielplanung, Leistungsbewertung & Anreizsystem → wirken auf Persönlichkeitsmerkmale, Wissen/Fähigkeiten, Motivation, Rollenklar­heit → Performance
+  - Digitalisierung der Verkaufsaktivitäten (Johnson/Bharadwaj 2006): erhöht Effektivität um 0.39, vermittelt durch Kontrollen
+  - Stellenbesetzungsprozess: Jobspezialisierung → Kandidatengewinnung → Auswahl (Interview, Situatives Interview, Referenzen, Assessment Center)
+  - Training als andauernder Prozess: Analyse → Ziele → Maßnahmen → Kontrolle → Absicherung
 
 ---
 
