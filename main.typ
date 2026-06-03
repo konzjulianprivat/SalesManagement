@@ -14,8 +14,8 @@
 #let var_university_name       = "Duale Hochschule Baden-Württemberg Mannheim"
 #let var_university_course     = "Wirtschaftsinformatik Sales & Consulting"
 #let var_university_city       = "Mannheim"
-#let var_university_supervisor = "Ich Thuan Cong"
-#let var_university_email      = "thuan.ich.cong@ibm.com"
+#let var_university_supervisor = "Florian Holz"
+#let var_university_email      = "florian.holz@uni-mannheim.de"
 #let var_university_phone      = "var_university_phone"
 #let var_company_supervisor    = "var_company_supervisor"
 #let var_company_supervisor_mail = "var_company_supervisor_mail"
@@ -39,9 +39,9 @@
 #import "variables-lib.typ": init-variables, print-variables, var, varpl, vars, varspl, varl, varlpl, varf,varfpl
 // ------------------------------------------------------------
 // Global Styles
-#set cite(style: "harvard-cite-them-right") //harvard-cite-them-right
+#set cite(style: "ieee") //harvard-cite-them-right
 #set text(font: "Arial", size: 12pt, lang: "de")
-#set par(leading:  1.5em, spacing: 2.5em)
+#set par(leading:  1em, spacing: 2em)
 
 #let title-size = 1.5em
 #let subtitle-size = 1.25em
@@ -97,10 +97,10 @@
 #v(spacing*3)
 #set par(leading: 0.5em)
 #align(center, text(weight: "semibold", size: title-size, var_title))
-#set par(leading:  1.0em)
+#set par(leading: 1.0em)
 
-// #v(spacing)
-// #align(center, text(weight: "semibold", size: title-size, "SPERRVERMERK"))
+#v(spacing)
+#align(center, text(weight: "semibold", size: title-size, "SPERRVERMERK"))
 #v(small-spacing)
 #align(center, text(weight: "semibold", size: subtitle-size, "Modul Sales Management"))
 #v(small-spacing)
@@ -191,7 +191,7 @@
   it
   v(0.5em)
 }
-#set par(leading:  1.5em, spacing: 2.5em, justify: true)
+#set par(leading:  1em, spacing: 2em, justify: true)
 #set text(hyphenate: true, lang: "de")
 
 
@@ -217,15 +217,15 @@ Ich versichere hiermit, dass ich meine Projektarbeit mit dem Titel: "#text(var_t
 )
 
 
-//-----------------------------------------------------------------------------------
+// -----------------------------------------------------------------------------------
 // Sperrvermerk
-//-----------------------------------------------------------------------------------
-// #pagebreak()
-// = Sperrvermerk
-// // Sperrvermerk Content
-// Die nachfolgende Arbeit enthält vertrauliche Daten und Informationen der #box(var_company_name), #text(var_company_address). Der Inhalt dieser Arbeit darf weder als Ganzes noch in Auszügen Personen außerhalb des Prüfungsprozesses und des Evaluationsverfahrens zugänglich gemacht werden. Veröffentlichungen oder Vervielfältigungen der Projektarbeit #box("- auch auszugsweise -") sind ohne ausdrückliche Genehmigung der #box(var_company_name) in einem unbegrenzten Zeitrahmen nicht gestattet. Über den Inhalt dieser Arbeit ist Stillschweigen #box("zu wahren.")
-// #v(1.5em)
-// Firma und Logos sind eingetragene Warenzeichen der #box(var_company_name). Die Wiedergabe von Gebrauchsnamen, Handelsnamen, Warenbezeichnungen usw. in dieser Arbeit berechtigt auch ohne besondere Kennzeichnung nicht zu der Annahme, dass solche Namen im Sinne der Warenzeichen- und Markenschutz-Gesetzgebung als frei zu betrachten wären und daher von jedem benutzt #box("werden dürfen.")
+// -----------------------------------------------------------------------------------
+#pagebreak()
+= Sperrvermerk
+// Sperrvermerk Content
+Die nachfolgende Arbeit enthält vertrauliche Daten und Informationen der #box(var_company_name), #text(var_company_address). Der Inhalt dieser Arbeit darf weder als Ganzes noch in Auszügen Personen außerhalb des Prüfungsprozesses und des Evaluationsverfahrens zugänglich gemacht werden. Veröffentlichungen oder Vervielfältigungen der Projektarbeit #box("- auch auszugsweise -") sind ohne ausdrückliche Genehmigung der #box(var_company_name) in einem unbegrenzten Zeitrahmen nicht gestattet. Über den Inhalt dieser Arbeit ist Stillschweigen #box("zu wahren.")
+
+Firma und Logos sind eingetragene Warenzeichen der #box(var_company_name). Die Wiedergabe von Gebrauchsnamen, Handelsnamen, Warenbezeichnungen usw. in dieser Arbeit berechtigt auch ohne besondere Kennzeichnung nicht zu der Annahme, dass solche Namen im Sinne der Warenzeichen- und Markenschutz-Gesetzgebung als frei zu betrachten wären und daher von jedem benutzt #box("werden dürfen.")
 
 //-----------------------------------------------------------------------------------
 // Gleichbehandlung
@@ -242,7 +242,7 @@ In dieser Praxisarbeit wird aus Gründen der besseren Lesbarkeit das generische 
 // Disclaimer Content
 Ein Teil der Literatur, die für die Anfertigung dieser Arbeit genutzt wird, ist nur über die E-Book-Plattform o'Reilly abrufbar. Bei diesen Ressourcen existieren keine Seitennummern, es wird bei Verweisen stattdessen die #box("Kapitelnummer angegeben.")
 #v(1.5em)
-Um den Lesefluss zu verbessern, werden Abbildungen, Codebeispiele und Tabellen, die den Lesefluss stören, im Anhang platziert, auf den im Text zusätzlich #box("verwiesen wird.")
+Um den Lesefluss zu verbessern, werden Abbildungen und Tabellen, die den Lesefluss stören, im Anhang platziert, auf den im Text zusätzlich #box("verwiesen wird.")
 
 //-----------------------------------------------------------------------------------
 // Abstract

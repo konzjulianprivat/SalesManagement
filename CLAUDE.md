@@ -373,3 +373,34 @@ Quellen werden als BibTeX in `sources.bib` eingetragen. Die Datei enthält berei
 - **Zitationsstil**: IEEE (`#set cite(style: "ieee")`)
 - **Wortlimit**: 2.000 Wörter – präzise und dicht formulieren, Redundanzen vermeiden
 - **Bilder/Grafiken**: Erlaubt laut Aufgabenstellung, im `pictures/`-Ordner ablegen
+
+---
+
+## Schreibstil-Anforderungen (verbindlich, abgeleitet aus Konz_Julian_PA2.pdf)
+
+### Satzbau und Absätze
+- Sätze sind 15–30 Wörter lang, mit bewusstem Wechsel zwischen kürzeren und längeren Sätzen
+- Absätze werden nach 4–6 Sätzen bei Themenwechsel gebrochen; nie einen langen Textblock ohne Absatz
+- Keine Aufzählungen mit `-` oder `+` innerhalb von Fließtextsätzen; stattdessen ausgeschriebene Aufzählungen im Text oder als separate Typst-Aufzählung
+
+### Verbotene Elemente
+- Keine `*fett*`- oder `_kursiv_`-Formatierungen im Fließtext (kommt merkwürdig)
+- Keine Gedankenstriche (—) oder Em-Dashes innerhalb von Sätzen (Ausnahme: Fazit/Einleitung wenn stilistisch nötig)
+- Keine Doppelpunkte innerhalb eines Satzes (z.B. „SAP setzt auf Folgendes: X, Y, Z")
+- Keine KI-typischen Adjektive: „konsequent", „nahtlos", „ganzheitlich", „maßgeblich", „entscheidend" sparsam verwenden
+- Keine persönlichen Wertungen; wissenschaftlich neutrale Formulierung verwenden
+
+### Wortwahl und Stil
+- Verbindungswörter aus dem Konz-Stil: „Hierzu", „Darüber hinaus", „Dabei", „Zudem", „Im Rahmen", „Auf dieser Grundlage"
+- Passivkonstruktionen für Neutralität: „wird angewendet", „wurde belegt", „lässt sich klassifizieren"
+- Wenn eine Methode eingeführt wird: erst kurz erklären was sie ist und wozu sie dient, dann Anwendung auf SAP
+- Zahlen unter einer Million ausschreiben (z.B. „23 Prozent" statt „23 %")
+
+### Akronyme
+- Alle Abkürzungen ausnahmslos über `#acr("SHORT")` aufrufen – nie direkt als Text schreiben
+- Beim ersten Vorkommen im Text übernimmt `#acr()` automatisch die Langform
+- Neue Abkürzungen zuerst in `acronyms.typ` eintragen, dann im Text verwenden
+
+### Bilder
+- An Stellen, wo ein Bild sinnvoll wäre, einen Typst-Kommentar einfügen: `// Abbildung: [Beschreibung was das Bild zeigen soll]`
+- Sobald ein Bild vorhanden ist, mit `#figure(image(...), caption: [...]) <label>` einbinden

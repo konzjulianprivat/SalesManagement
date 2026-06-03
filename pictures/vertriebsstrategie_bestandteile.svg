@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 620" width="100%" height="100%">
+  <defs>
+    <style>
+      .arrow { 
+        fill: #d3d3d3; 
+        stroke: #000000; 
+        stroke-width: 1.5; 
+        stroke-linejoin: round; 
+      }
+      .text-label { 
+        font-family: Arial, Helvetica, sans-serif; 
+        font-size: 28px; 
+        text-anchor: middle; 
+        fill: #000000; 
+      }
+    </style>
+  </defs>
+
+  <g transform="translate(440, 250) rotate(-90)">
+    <polygon class="arrow" points="0,-12 120,-12 120,-25 170,0 120,25 120,12 0,12"/>
+  </g>
+
+  <g transform="translate(370, 310) rotate(138)">
+    <polygon class="arrow" points="0,-12 210,-12 210,-25 260,0 210,25 210,12 0,12"/>
+  </g>
+
+  <g transform="translate(510, 310) rotate(45)">
+    <polygon class="arrow" points="0,-12 190,-12 190,-25 240,0 190,25 190,12 0,12"/>
+  </g>
+
+  <g transform="translate(620, 530) rotate(180)">
+    <polygon class="arrow" points="0,-12 320,-12 320,-25 370,0 320,25 320,12 0,12"/>
+  </g>
+
+  <g transform="translate(330, 90) rotate(117.7)">
+    <polygon class="arrow" points="0,-12 400,-12 400,-25 450,0 400,25 400,12 0,12"/>
+  </g>
+
+  <text x="440" y="50" class="text-label">Sales partners</text>
+  <text x="440" y="295" class="text-label">Company</text>
+  <text x="140" y="540" class="text-label">Customers</text>
+  <text x="740" y="540" class="text-label">Competitors</text>
+</svg>
