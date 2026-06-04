@@ -44,6 +44,7 @@ Auf der Ebene des Erfolgspotenzials sichern dedizierte Post-Sales-Teams durch pr
 
 // [QUELLE-VALIDIERUNG Abs. 2: Überarbeiteter Absatz – ABC-Logik auf Zielebenen entfernt (theoretisch inkorrekt). Direkte Anwendung der Zielhierarchie nach Homburg2013 auf SAP. SAPNewsGartnerMQERP2024 (Marktführerschaft) ✓. SAPBDCGtm2026 S.5 (Data & AI Wachstum als finanzielles Ziel) ✓.]
 
+#pagebreak()
 
 == Herausforderungen im Vertriebsmanagement <sec-herausforderungen>
 
@@ -195,10 +196,16 @@ SAP ist sowohl Anbieter als auch Anwender seiner eigenen #acrs("CRM")-Lösungen.
 Die Monetarisierung von #acrs("KI") und der messbare Wertnachweis stellen die größte vertriebliche Herausforderung der kommenden fünf Jahre dar. Enterprise-Kunden stehen unter wachsendem Druck, #acrs("KI")-Investitionen durch konkrete #acr("ROI")-Nachweise zu rechtfertigen. 
 
 Eine zentrale Herausforderung der SAP wird die zunehmende Konkurrenz im #acr("SaaS")-Markt sein, da Kunden durch die Demokratisierung von #acrs("KI")-Technologien zunehmend beginnen, eigene IT-Lösungen zu entwickeln, wodurch die Nachfrage nach #acr("SaaS") abnimmt
-  . 
-Zunehmend zeigen #acr("KI")-Anbieter wie Anthropic und OpenAI innovative Lösungen, die spezifische Geschäftsprozesse adressieren und durch eigene Infrastruktur die Preise von SAP unter Druck setzen. SAP muss hier den Mehrwert der durchgängigen Plattform überzeugend kommunizieren sowie ihren Fokus auf Compliance und regulatorische Anforderungen stärken.
+  #cite(<williams2025ai>). 
+Zunehmend zeigen #acr("KI")-Anbieter wie Anthropic und OpenAI innovative Lösungen, die spezifische Geschäftsprozesse adressieren und durch eigene Infrastruktur die Preise von SAP unter Druck setzen
+  #cite(<anthropic2026finance>) 
+  #cite(<openai2026gemeinsame>). 
+SAP muss hier den Mehrwert der durchgängigen Plattform überzeugend kommunizieren sowie ihren Fokus auf Compliance und regulatorische Anforderungen stärken.
 
-Um gegenüber Wettbewerbern einen #acr("USP") hinsichtlich #acr("KI") zu erzielen, setzt SAP verstärkt auf strategische Kooperationen mit führenden #acrs("KI")-Forschungslaboren sowie Beratungspartnern, um innovative Lösungen schneller in den Markt zu bringen. Beispiele hierfür sind die Akquisition von Prior Labs, einem auf #acr("KI") für tabellarische Daten spezialisierten Unternehmen, sowie die Kooperation mit n8n im Bereich Workflow-Automatisierung und Agentic AI. Bei der Implementierung von #acr("KI")-Lösungen setzt SAP zunehmend auf eine Auslagerungen von GROW with SAP Implementierungen an Partner, wobei eigene SAP berater zunehmend auf #acr("KI") spezialisierte Kundenprojekte fokussieren, um die Time-to-Market zu verkürzen und die Kundenzufriedenheit zu erhöhen #cite(<SAPBDCGtm2026>, supplement: "S. 22").
+Um gegenüber Wettbewerbern einen #acr("USP") hinsichtlich #acr("KI") zu erzielen, setzt SAP verstärkt auf strategische Kooperationen mit führenden #acrs("KI")-Forschungslaboren sowie Beratungspartnern, um innovative Lösungen schneller in den Markt zu bringen. Beispiele hierfür sind die Akquisition von Prior Labs, einem auf #acr("KI") für tabellarische Daten spezialisierten Unternehmen, sowie die Kooperation mit n8n im Bereich Workflow-Automatisierung und Agentic AI
+  #cite(<sap2026prior>)
+  #cite(<schimroszik2026n8n>). 
+Bei der Implementierung von #acr("KI")-Lösungen setzt SAP zunehmend auf eine Auslagerungen von GROW with SAP Implementierungen an Partner, wobei eigene SAP berater zunehmend auf #acr("KI") spezialisierte Kundenprojekte fokussieren, um die Time-to-Market zu verkürzen und die Kundenzufriedenheit zu erhöhen #cite(<SAPBDCGtm2026>, supplement: "S. 22").
 
 Eine operative Herausforderung bleibt die Migration der verbleibenden On-Premise-Kunden in die Cloud. Viele Bestandskunden operieren noch auf älteren SAP-Systemen und haben die Transformation bisher aufgeschoben. Dieses Risiko muss von SAP zunehmend adressiert werden, da die Cloud-Transformation nicht nur Umsatzpotenziale erschließt, sondern auch die Grundlage für die Einführung von #acr("KI")-Funktionalitäten bildet.
 
