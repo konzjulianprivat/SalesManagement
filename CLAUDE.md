@@ -49,6 +49,17 @@ SalesManagement/
 
 ---
 
+## Aktueller Stand der Arbeit (Stand: Juni 2026)
+
+Alle Theoriekapitel sind abgabebereit und werden **nicht mehr angefasst**. Die SAP-Absätze wurden überarbeitet:
+- Kap. 2.1 (Vertriebsziele): ABC-Logik auf Zielebenen entfernt → direkte Anwendung der Zielhierarchie
+- Kap. 2.3 (Vertriebsstrategie): Kundensegmentierung herausgezogen → Fokus auf Value Selling, Solution Selling, AI/Suite First
+- Kap. 3 (Wettbewerbsvorteile der Wettbewerber): Konkurrenzeinführung ergänzt (Salesforce, Oracle, Microsoft) mit Stärkenanalyse
+- Kap. 4 (Vertriebskanäle): Segmentierungsmodell (Enterprise/Corporate/SMB) jetzt hier integriert mit Theoriebezug
+- Kap. 5 (CRM): Mehr Theoriebezug (CLV, KAM, ABC), weniger konkrete Zahlen; Doppelrolle-SAP herausgearbeitet
+
+---
+
 ## ⚠️ FUNDAMENTALER FOKUS-WECHSEL (Stand: Mai 2026)
 
 > **Diese Anforderung überschreibt alle früheren Anweisungen zur Gewichtung von SAP-Inhalten.**

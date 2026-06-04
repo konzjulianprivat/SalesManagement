@@ -10,5 +10,11 @@
   SMB: "Small and Medium-Sized Businesses",
   DCA: "Distribution Cost Analysis",
   KAM: "Key Account Management",
-  ROI: "Return on Investment"
+  ROI: "Return on Investment",
+  SCP: "Strategic Customer Program",
+  KMU: "Kleine und Mittelständische Unternehmen",
+  SE: "Societas Europaea",
+  USP: "Unique Selling Point",
+  ECC: "ERP Central Component",
+  SaaS: "Software as a Service",
 )
