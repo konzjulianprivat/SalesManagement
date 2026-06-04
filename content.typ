@@ -7,13 +7,13 @@
 #let content = [
 
 = Einleitung
-Diese Hausarbeit behandelt die zentralen Konzepte des Vertriebsmanagements und deren praktische Umsetzung am Beispiel der SAP. Die SAP SE mit Sitz in Walldorf ist ein weltweit führender Anbieter für unternehmensweite Anwendungssoftware. Diese Arbeit nutzt die SAP SE als Anwendungsbeispiel, um zentrale Konzepte des Vertriebsmanagements zu illustrieren. 
+Die SAP SE mit Sitz in Walldorf ist ein weltweit führender Anbieter für unternehmensweite Anwendungssoftware. Diese Arbeit nutzt die SAP SE als Anwendungsbeispiel, um zentrale Konzepte des Vertriebsmanagements zu illustrieren. 
 
-Ziel ist es, die theoretischen Grundlagen aus der Vorlesung zu erarbeiten und anschließend einzuordnen, wie SAP diese in der Praxis umsetzt. Dafür wird je Themengebiet aus der Vorlesung zunächst die Kontepte aus der Theorie vorgestellt und anschließend die praktische Umsetzung bei SAP beschrieben. Abschließend wird ein Fazit gezogen, in dem die wichtigsten Erkenntnisse zusammengefasst werden.
+Diese Hausarbeit behandelt die zentralen Konzepte des Vertriebsmanagements und deren praktische Umsetzung am Beispiel der SAP. Ziel ist es, die theoretischen Grundlagen aus der Vorlesung zu erarbeiten und anschließend einzuordnen, wie SAP diese in der Praxis umsetzt. 
+
+Dafür wird je Themengebiet aus der Vorlesung zunächst die Konzepte aus der Theorie vorgestellt und anschließend die praktische Umsetzung bei SAP beschrieben. Abschließend wird ein Fazit gezogen, in dem die wichtigsten Erkenntnisse zusammengefasst werden.
 
 // [QUELLE-VALIDIERUNG Einleitung: Zahlen (36,8 Mrd. EUR Gesamtumsatz, 21,0 Mrd. EUR Cloud, +23%) stammen aus SAPIntegratedReport2025, S.59-60 – KEINE Vorlesungsfolie. Korrekt zitiert.]
-
-#pagebreak()
 
 = Vertriebsstrategie - Ziele & Herausforderungen
 
@@ -154,22 +154,23 @@ SAP betreibt ein selektives Multi-Channel-System, das nach Kundengröße und Tra
 #pagebreak()
 
 = Customer Relationship Management
-#acr("CRM") bezeichnet nach Payne und Frow (2005) eine strategische Managementdisziplin, die darauf ausgerichtet ist, langfristige, profitable Kundenbeziehungen durch systematische Erfassung, Analyse und Nutzung von Kundendaten aufzubauen und zu erhalten #cite(<Payne2005>, supplement: "S. 168"). Nach Winkelmann (2013) durchlief #acrs("CRM") einen Evolutionspfad vom transaktionalen Rattenjagd-Vertrieb über das Verkaufen mit Methode bis hin zum #acrs("CRM")-Vertrieb mit vollständiger Kundenfokussierung und datengetriebener Steuerung #cite(<Winkelmann2013>).
+#acr("CRM") ist nach #cite(<homburg2000customer>, form: "prose", supplement: "S. 7") eine strategische Managementdisziplin, die darauf ausgerichtet ist, langfristige, profitable Kundenbeziehungen aufzubauen und zu erhalten. Dies umfasst die Planung, Durchführung, Kontrolle sowie Anpassung aller Unternehmensaktivitäten, die zu einer Optimierung des Kundenportfolios beitragen. Dafür werden Daten und Informationen über Kunden gesammelt, analysiert und genutzt, um eine Kundenauswahl, -priorisierung und -individualisierung zu ermöglichen mit dem Ziel, kundenorientiert zu handeln #cite(<homburg2000customer>, supplement: "S. 7").
+Die fundamentalen Ziele des #acrs("CRM") gliedern sich in die folgenden vier Dimensionen: 
 
-// [QUELLE-VALIDIERUNG Abs. 15: Payne/Frow Definition → KEINE direkte Vorlesungsfolie — es ist ein akademisches Paper direkt. Winkelmann-Evolutionspfad → Folie 24 (Kap 1-3.pdf) zeigt den Evolutionspfad (Rattenjagd → Verkaufen mit Methode → CRM-Vertrieb), Quelle auf Folie: Winkelmann P. (2013) ✓. Gleicher Pfad vermutlich auch in Kap 4.pdf Beginn (nicht alle Folien gezeigt).]
-
-Die fundamentalen Ziele des #acrs("CRM") gliedern sich nach Homburg et al. in die folgenden vier Dimensionen: 
-
-- *Kundenzufriedenheit und -loyalität*: Zufriedene Kunden bleiben länger, kaufen mehr und empfehlen weiter.
-- *Vertrauen als Basis langfristiger Zusammenarbeit*: Vertrauen ist entscheidend für die Stabilität und Nachhaltigkeit von Kundenbeziehungen.
+- *Kundenzufriedenheit und -loyalität*: Balance zwischen Kundenzufriedenheit und Wichtigkeit der Kundenbeziehung, um eine langfristige Bindung zu sichern.
+- *Vertrauen*: Das Vertrauen in die Produkte, Prozesse und Arbeitsweise sowie die Kontaktperson des Geschäftspartners.
 - *Profitabilität der Kundenbeziehung*: Die wirtschaftliche Rentabilität jeder Kundenbeziehung wird kontinuierlich überwacht und optimiert.
-- *Wert des Kunden*: Der Gesamtwert eines Kunden für das Unternehmen wird anhand verschiedener Kennzahlen bewertet #cite(<Homburg2016>, supplement: "S. 221 ff."). 
+- *Wert des Kunden*: Beschreibt den durch Kundenportfolio und Anbieterposition zusammengesetzten Mehrwert des Kunden für das Unternehmen #cite(<Homburg2016>, supplement: "S. 221 ff."). 
 
-Zur Analyse des Kundenwerts dient die ABC-Analyse der Kunden, die zur Klassifikation der Kundenstruktur nach Wertbeitrag eingesetzt wird. Hierbei erhalten A-Kunden intensive Betreuungsressourcen, wobei C-Kunden über skalierbare Kanäle bedient werden. Ergänzend quantifiziert das #acr("CLV")-Modell die Kundenbeziehung als Investitionsobjekt. Mit steigender Beziehungsdauer nehmen der Basisgewinn, das Verkaufsvolumen, die Weiterempfehlungen und ein erzielbares Preis-Premium zu, während die Betriebskosten sinken. Reichheld und Sasser (1990) zeigten empirisch, dass eine fünfprozentige Steigerung der Kundenbindungsrate den Unternehmensgewinn um 25 bis 95 Prozent erhöhen kann #cite(<Reichheld1990>).
+Um den Wert eines Kunden für das Unternehmen zu bestimmen, wird die ABC-Analyse der Kunden eingesetzt, bei welcher Kunden in Klassen von A bis C eingeteilt werden. A-Kunden erhalten intensive Betreuungsressourcen, während C-Kunden über skalierbare Kanäle bedient werden.
 
-// [QUELLE-VALIDIERUNG Abs. 16: 4 Zieldimensionen → Folie 29 (Kap 4.pdf) Übersicht zeigt: Kundenzufriedenheit/-loyalität, Vertrauen, Profitabilität, Wert des Kunden ✓. Text zitiert Homburg2016 S.221ff — laut Folie 34 (Kap 4.pdf) ist S.220 für Profitabilität, S.205 für ABC-Analyse. Die S.221ff passt zum CLV-Modell (Folie 44: Quelle Homburg/Schäfer/Schneider 2016, S.221ff) ✓. ABC-Analyse → Folie 39 (Kap 4.pdf), Quelle: Homburg/Schäfer/Schneider 2016, S.205 ✓. CLV-Modell → Folie 44 (Kap 4.pdf), Quelle: Homburg/Schäfer/Schneider 2016, S.221ff ✓. Gewinnkomponenten → Folie 43 (Kap 4.pdf) Balkendiagramm zeigt: Basisgewinn + Verkaufsvolumen + sinkende Betriebskosten + Weiterempfehlungen + Preis-Premium, Quelle: Reichheld/Sasser (1990) ✓. Reichheld 5% → 25-95% → Folie 43 impliziert dies, Quelle: Reichheld/Sasser 1990 ✓.]
+Die folgenden Instrumente werden im #acrs("CRM") eingesetzt, um die Kundenbeziehung zu gestalten und zu steuern:
 
-Zu den zentralen Instrumenten des #acrs("CRM") zählen Kundenkarten, die Modellierung der Kundenbeziehung, das Beschwerdemanagement sowie das #acr("KAM"). #acr("KAM") bezeichnet die systematische Gestaltung von Geschäftsbeziehungen zu den bedeutendsten Kunden eines Unternehmens. Die Auswahl der Schlüsselkunden erfolgt nach proaktiven Kriterien wie wirtschaftlicher Bedeutung und Imagewirkung sowie nach reaktiven Kriterien wie dem Kundenwunsch nach einem #acrs("KAM")-Status. Entscheidend für den Erfolg ist das Verständnis formaler und informeller Buying-Center-Strukturen mit typischen Rollen wie Förderer, Entscheidungsträger, Blockierer und Einflussnehmer #cite(<HombergJensen2004>). #acr("KI") transformiert #acrs("CRM") darüber hinaus entlang fünf Dimensionen: automatisierte Dateneingabe, Sentiment-Analyse, Datenintegrität, Predictive Lead-Scoring und kundenspezifische Empfehlungen #cite(<SAPJoule2023>).
+- *Kundenkarten*: Instrument, welches dem Unternehmen Kundendaten und Kaufverhalten liefert und dem Kunden im Gegenzug Vorteile wie Rabatte, Bonuspunkte oder exklusive Services bieten.
+- *Modellierung der Kundenbeziehung*: Modelliert den Kundenlebenszyklus in fünf Phasen, durch die auf Basis von Triggern Maßnahmen zur Kundenbindung und -entwicklung durchgeführt werden.
+- *Beschwerdemanagement*: Fokussiert sich auf die systematische Bearbeitung von Kundenbeschwerden, um bei Unzufriedenheit schnell reagieren und die Kundenbindung wiederherstellen oder sogar verbessern zu können.
+- *#acr("KAM")*: Fokus auf die individuelle Betreuung von besonders wichtigen Kunden, um langfristige, strategische Partnerschaften aufzubauen und zu pflegen durch proaktive und reaktive Maßnahmen.
+
 
 // [QUELLE-VALIDIERUNG Abs. 17: Instrumente-Übersicht (Kundenkarten, Modellierung, Beschwerdemanagement, KAM) → Folie 47 (Kap 4.pdf) Übersicht ✓. Kundenkarten → Folie 50 (Kap 4.pdf) ✓. Modellierung Kundenbeziehung → Folie 54 (Kap 4.pdf) ✓. Beschwerdemanagement → Folie 57-60 (Kap 4.pdf) ✓. KAM-Definition und proaktive/reaktive Kriterien → laut CLAUDE.md Folie 67-80 (Kap 4.pdf) — diese Folien wurden noch NICHT gezeigt; HombergJensen2004 als Quelle laut CLAUDE.md korrekt. Buying-Center-Rollen → laut CLAUDE.md Folie 67-80, noch zu verifizieren. ACHTUNG KI-CRM: Folie 26 (Kap 1-3.pdf) zeigt die 5 Wege, dort Quelle: Forbes (2019) — im Text wird SAPJoule2023 zitiert. Das ist FALSCH: Die 5 Dimensionen sind ein allgemeines Theoriekonzept (Forbes 2019), nicht eine SAP-spezifische Quelle. Empfehlung: Quelle auf Forbes (2019) ändern oder einen Forbes-Eintrag in sources.bib ergänzen, da SAPJoule2023 diese theoretische Klassifikation nicht liefert.]
 
