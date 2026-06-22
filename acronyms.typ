@@ -17,4 +17,5 @@
   USP: "Unique Selling Point",
   ECC: "ERP Central Component",
   SaaS: "Software as a Service",
+  GEM: "Global Escalation Management",
 )

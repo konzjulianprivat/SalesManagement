@@ -196,7 +196,7 @@
 
 
 = Eidesstattliche Erklärung
-Ich versichere hiermit, dass ich meine Projektarbeit mit dem Titel: "#text(var_title)" selbstständig verfasst und keine anderen als die angegebenen Quellen und Hilfsmittel benutzt habe. Ich versichere zudem, dass die eingereichte elektronische Fassung mit der gedruckten #box("Fassung übereinstimmt.")
+Ich versichere hiermit, dass ich meine Projektarbeit mit dem Titel: "#text(var_title)" selbstständig verfasst und keine anderen als die angegebenen Quellen und Hilfsmittel benutzt habe.
 
 // Space for the signature
 #v(7em)
@@ -310,11 +310,11 @@ Um den Lesefluss zu verbessern, werden Abbildungen und Tabellen, die den Leseflu
 #pagebreak()
 
 // Abbildungsverzeichnis (List of Figures)
-  #outline(
-    title: "Abbildungsverzeichnis",
-    target: figure.where(kind: image)
-  )
-#pagebreak()
+//   #outline(
+//     title: "Abbildungsverzeichnis",
+//     target: figure.where(kind: image)
+//   )
+// #pagebreak()
 // Tabellenverzeichnis (List of Tables)
 //   #outline(
 //     title: "Tabellenverzeichnis",
